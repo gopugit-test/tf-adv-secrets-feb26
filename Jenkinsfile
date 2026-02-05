@@ -47,9 +47,9 @@ pipeline {
     }
 
   }
-  // post {
-  //   always {
-  //     echo "Static validation completed."
-  //   }
-  // }
+  post {
+    always {
+      echo "Static validation completed."
+    }
+  }
 }
